@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-bool linear_search(int arr[], int n, int x) {
+int linear_search(int arr[], int n, int x) {
 	int i;
 	for (i = 0; i < n; i++) {
 		if (arr[i] == x) {
-			return true;
+			return i;
 		}
 	}
-	return false;
+	return -1;
 }
 
 int main(int argc, char const *argv[])
