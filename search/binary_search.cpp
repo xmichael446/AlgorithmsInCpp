@@ -8,12 +8,13 @@ int bin_search(int arr[], int p, int r, int num) {
 			return mid;
 		if (arr[mid] > num)  
 			return bin_search(arr, p, mid-1, num);
-		if (arr[mid] > num)
+		if (arr[mid] < num)
 			return bin_search(arr, mid+1, r, num); 
 	} 
 	return -1; 
 } 
-int main(void) { 
+
+int main() { 
 	int arr[] = {1, 3, 7, 15, 18, 20, 25, 33, 36, 40}; 
 	int n = sizeof(arr)/ sizeof(arr[0]); 
 	int num = 33; 
