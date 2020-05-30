@@ -1,2 +1,2 @@
 # AlgorithmsInCpp
-Most popular algorithms in C++
+Most of popular algorithms implemented in C++
