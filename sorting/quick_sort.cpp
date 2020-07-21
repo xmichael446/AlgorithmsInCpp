@@ -7,7 +7,7 @@ void swap(int *a, int *b) {
 	*b = t;
 }
 
-void printArray(int array[], int size) {
+void print_array(int array[], int size) {
 	int i;
 	for (i = 0; i < size; i++)
 		cout << array[i] << " ";
@@ -28,19 +28,19 @@ int partition(int array[], int low, int high) {
 	return (i + 1);
 }
 
-void quickSort(int array[], int low, int high) {
+void quick_sort(int array[], int low, int high) {
 	if (low < high) {
 		int pi = partition(array, low, high);
 
-		quickSort(array, low, pi - 1);
+		quick_sort(array, low, pi - 1);
 
-		quickSort(array, pi + 1, high);
+		quick_sort(array, pi + 1, high);
 	}
 }
 
 int main() {
 	int data[] = {8, 7, 6, 1, 0, 9, 2};
 	int n = sizeof(data) / sizeof(data[0]);
-	quickSort(data, 0, n - 1);
-	printArray(data, n);
+	quick_sort(data, 0, n - 1);
+	print_array(data, n);
 }
