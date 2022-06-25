@@ -1,0 +1,34 @@
+{
+   "products":[
+      {
+         "name":"Hot-Dog",
+         "description":"Non ichida sosiska, sal galatiroq",
+         "image":"https://user-images.githubusercontent.com/64916997/175787886-943a7414-9984-406e-b0b9-60ba43dfe9ff.png"
+      },
+      {
+         "name":"Gamburger",
+         "description":"Ikkita non kotlet karam salat",
+         "image":"https://user-images.githubusercontent.com/64916997/175787934-b745c888-3232-40cd-aab5-ef45029a36c3.png"
+      },
+      {
+         "name":"Donar",
+         "description":"Gamburger faqat kotletmas gosht",
+         "image":"https://user-images.githubusercontent.com/64916997/175788000-f871cbea-f947-46a8-800d-061e64a76b3a.png"
+      },
+      {
+         "name":"Lavash",
+         "description":"Xamir gosht salat mayonez +",
+         "image":"https://user-images.githubusercontent.com/64916997/175788000-f871cbea-f947-46a8-800d-061e64a76b3a.png"
+      },
+      {
+         "name":"Fri",
+         "description":"Kartoshkani chotkiy qovurilgani",
+         "image":"https://user-images.githubusercontent.com/64916997/175787989-a428b4ea-2125-49a3-b894-942b8ec52856.png"
+      },
+      {
+         "name":"Goshtli pizza",
+         "description":"Non pishloq qoziqorin kalbasa +",
+         "image":"https://user-images.githubusercontent.com/64916997/175787951-143cc456-5316-4391-a98c-82964756a17a.png"
+      }
+   ]
+}
